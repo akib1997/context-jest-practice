@@ -15,13 +15,13 @@ export default function CounterButtons() {
   return (
     <div className="flex">
       <button
-        className="focus:outline-none outline-none block px-6 py-2 bg-purple-600 text-white mr-6"
+        className="focus:outline-none outline-none block px-6 py-2 bg-purple-600 text-white rounded-md text-xl mr-6 font-semibold"
         onClick={increment}
       >
         Add
       </button>
       <button
-        className="focus:outline-none outline-none block px-6 py-2 bg-red-600 text-white"
+        className="focus:outline-none outline-none block px-6 py-2 bg-red-600 text-white rounded-md text-xl font-semibold"
         onClick={decrement}
       >
         Minus
